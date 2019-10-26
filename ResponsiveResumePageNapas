@@ -1,0 +1,25 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet"  type = “text/css“ href="./Decor.css">
+    <title>Document</title>
+</head>
+<body>
+    <title>Napas Kavalee</title>
+    <p>Ki</p>
+    <p>Applied Thai Traditional Medicine</p>
+    <p>Skill</p>
+    <ul>
+        <li>Adobe Photoshop</li>
+        <li>Adobe Illustrator</li>
+        <li>Microsoft Office excel</li>
+    </ul>
+    <p>Other</p>
+    <ul>
+        <li>botanical artists</li>
+    </ul>  
+</body>
+</html>
