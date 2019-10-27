@@ -5,31 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet"  type = “text/css“ href=".LandingPageResumeNapas.css">
+    <style>
+        .HH { color: navy;
+            font-family: Lobster;
+        }
+        .B1 {background-color: black;
+        }
+        .SmallPic {width: 150px;
+            height: 75px;
+        }
+        .p {font-size: 30px;
+        }
+        .ii {font-size: 15px;
+        }
+        .wrapper {backface-visibility: inherit;
+        background-color: lightslategrey;
+        }
+        .collumn { flex: 50%;
+        padding: 10px;
+        height: 300px;
+        }
+        .row {
+        display: flex;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="warpper">
-    <h1 style="color: navy;" font size: 100px; class="fa fa-align-center" aria-hidden="true">Napas Kavalee</h1>
+    <div class= "wrapper";>
+    <h1 class= "HH"> Napas Kavalee</h1>
     </div>
-    <div><h3>Ki</h3>
-             <p>Education:Bachelor of Applied Thai Traditional Medicine</p>
+    <div class="row">
+        <div class= "wrapper";  class="collumn";>
+            <h1 class= "HH">Ki</h1>
+            <p class="HH">Education:Bachelor of Applied Thai Traditional Medicine</p>
+            <h1 class= "HH">Skill</h1>
+                <ul>
+                    <li class="HH">Adobe Photoshop</li>
+                    <li class="HH">Adobe Illustrator</li>
+                    <li class="HH">Microsoft Office excel</li>
+                </ul>
         </div>
-        <div><p>Skill</p>
-            <ul>
-                <li>Adobe Photoshop</li>
-                <li>Adobe Illustrator</li>
-                <li>Microsoft Office excel</li>
-            </ul>
-        </div>        
-        <div>
-            <p>Other</p>
-            <img src="" alt="">
-        </div>
-        
-    <ul>
-        <li>botanical artists</li>
-    </ul>
+        <div class= "wrapper">
+        <img src="Ki_IMG.png" alt="test" alig ="right" width="250" height="300">
+        </div> 
+    </div>
+    <div class= "wrapper"; class= row>
+            <p class="HH">Other</p>
+            <p class="HH">botanical artists</p>
+                <img src= "Pilungkasa.jpg" alt="Botanical Art" class= "SmallPic" >
+    <div class= "wrapper"; class= row>
+        <p class="HH"; class= "ii">produce sine 1994</p>
+    </div>
 </body>
-<aside>
-    <img src="Ki_IMG.png" alt="test" alig ="right" width="500" height="600">
-</aside>
 </html>
