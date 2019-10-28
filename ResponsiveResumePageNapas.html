@@ -4,22 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet"  type = “text/css“ href="./Decor.css">
-    <title>Document</title>
+    <link rel="stylesheet"  type = “text/css“ href="LandingPageResumeNapas.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet" type="text/css">
+    <style>
+    .SmallPic {width: 300px;
+    height: 150px;
+    }
+    .section {
+    display: flex;
+    justify-content: center;
+    color: navy;
+    font-family: Lobster;
+    margin: 10px;
+    padding: 15px;
+    column-count: 2;
+    background-color:white;
+    grid-row: flex;
+    column-count: 2;
+    column-gap: inherit;
+    background-color: lightblue;
+    }
+    .positon1{width: 600px;
+    border: 2px solid white;
+    column-width: 40%;
+    margin-top: 100px;
+    margin-left: 50px;
+    }
+    .positon2{width: 400px;
+    column-width: 30%;
+    margin-left: 50px;
+    }
+    .header{width: flex; height: 125px;
+    background-color: lightblue;
+    padding: 100px;
+    font-size: 150px;
+    color: navy;
+    font-family: Lobster;
+    margin: 15px;
+    text-align: center;  
+    }
+    .footer{font-size: 15px;
+    color: navy;
+    font-family: Lobster;
+    text-align: center;
+    background-color: lightblue;
+    }
+    </style>
 </head>
 <body>
-    <title>Napas Kavalee</title>
-    <p>Ki</p>
-    <p>Applied Thai Traditional Medicine</p>
-    <p>Skill</p>
-    <ul>
-        <li>Adobe Photoshop</li>
-        <li>Adobe Illustrator</li>
-        <li>Microsoft Office excel</li>
-    </ul>
-    <p>Other</p>
-    <ul>
-        <li>botanical artists</li>
-    </ul>  
+    <header class= "header"> Napas Kavalee</header>
+    <section class= "section">
+        <div class= "position1">
+            <h1>Nickname:Ki</h1>
+            <p>Education:Bachelor of Applied Thai Traditional Medicine</p>
+            <h1>Skill</h1>
+                <ul>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Illustrator</li>
+                    <li>Microsoft Office excel</li>
+                </ul>
+        </div>
+        <div class="positon2">
+        <img src="Ki_IMG.png" style="z-index: 20; width: 400px; margin-top: 10px;"></img>
+        </div> 
+    </section>
+    <section class="section">
+        <div class="position1"><img src= "Pilungkasa.jpg" alt="Botanical Art" class= "SmallPic" ></div> 
+        <div class="positon2"></div<h1>Other</h1><br>
+            <p>Botanical artists</p>
+        
+    </section>
+        <footer class="footer">produce sine 1994</footer>   
 </body>
 </html>
